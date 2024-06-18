@@ -1,4 +1,3 @@
-import { links } from "@/app/utils/links";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -6,6 +5,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { links } from "@/utils/links";
 import { SignInButton, SignUpButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import Link from "next/link";
 import { LuAlignLeft } from "react-icons/lu";
