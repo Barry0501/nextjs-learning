@@ -103,3 +103,10 @@ const renderError = (error: unknown): { message: string } => {
     message: error instanceof Error ? error.message : "An error occurred",
   };
 };
+
+export const updateProfileImageAction = async (
+  prevState: any,
+  formData: FormData
+): Promise<{ message: string }> => {
+  return { message: "Profile image updated successfully" };
+};
